@@ -9,6 +9,8 @@
 
 import router from '@adonisjs/core/services/router'
 
+import '../app/modules/todo/todo.route.js'
+
 router.get('/', async () => {
   return {
     hello: 'world',
