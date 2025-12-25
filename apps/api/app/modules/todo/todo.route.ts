@@ -8,3 +8,4 @@ router.get('/todo', [TodosController, 'index'])
 
 router.patch('/todo/:id', [TodosController, 'update'])
 router.get('/todo/:id', [TodosController, 'getOne'])
+router.delete('/todo/:id', [TodosController, 'delete'])
